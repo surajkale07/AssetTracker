@@ -1,0 +1,199 @@
+name: myapp
+description: A asset tracker app
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.4
+  pdf: ^3.8.4
+  image_picker: ^0.8.4+3
+  firebase_picture_uploader: ^1.3.2
+  flutter_excel: ^1.0.1
+  csv: ^5.0.2
+  path_provider: ^2.0.15
+  excel: ^2.1.0
+  flutter_document_picker: ^5.2.1
+  open_file: ^3.3.1
+  flutter_local_notifications: ^14.0.0+1
+  timezone: ^0.9.2
+  flutter_pdfview: ^1.3.0
+  file_picker: ^5.3.1
+  url_launcher: ^6.1.11
+  universal_html: ^2.2.3
+  syncfusion_flutter_xlsio: ^21.2.3
+  permission_handler: ^10.3.0
+  external_path: ^1.0.3
+  connectivity: ^3.0.6
+  flutter_launcher_icons: ^0.11.0
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.5.2
+  firebase_storage: ^11.1.1
+  firebase_auth: ^4.4.2
+  firebase_database: ^10.1.1
+  data_format: ^0.0.3
+  intl: ^0.17.0
+  lottie: ^2.3.2
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/arieslogo.png
+    - assets/page-1/images/scanner.jpeg
+    - assets/page-1/images/opener-loading.gif
+    - assets/page-1/images/rectangle-375.png
+    - assets/page-1/images/rectangle-375-wHz.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/auto-group-kx2c.png
+    - assets/page-1/images/auto-group-xrwj.png
+    - assets/page-1/images/search.png
+    - assets/page-1/images/home.png
+    - assets/page-1/images/cellular.png
+    - assets/page-1/images/float-btn.png
+    - assets/page-1/images/battery-GsS.png
+    - assets/page-1/images/home-ASL.png
+    - assets/page-1/images/search-aXA.png
+    - assets/page-1/images/auto-group-stbe.png
+    - assets/page-1/images/rectangle-375-uq2.png
+    - assets/page-1/images/float-btn-y92.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/auto-group-t8fr.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/vector-yB6.png
+    - assets/page-1/images/android-nav-bar.png
+    - assets/page-1/images/auto-group-j31z.png
+    - assets/page-1/images/cellular-G5W.png
+    - assets/page-1/images/user.png
+    - assets/page-1/images/rectangle-375-DbN.png
+    - assets/page-1/images/rectangle-375-8S4.png
+    - assets/page-1/images/rectangle-376.png
+    - assets/page-1/images/vector-mBv.png
+    - assets/page-1/images/float-btn-2AL.png
+    - assets/page-1/images/float-btn-XcC.png
+    - assets/page-1/images/rectangle-375-bg.png
+    - assets/page-1/images/wifi-GfJ.png
+    - assets/page-1/images/auto-group-pnhe.png
+    - assets/page-1/images/wifi-fZi.png
+    - assets/page-1/images/ellipse-209-bg.png
+    - assets/page-1/images/cellular-Hsv.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/auto-group-flbz.png
+    - assets/page-1/images/float-btn-KoW.png
+    - assets/page-1/images/vector-hMA.png
+    - assets/page-1/images/android-nav-bar-94c.png
+    - assets/page-1/images/auto-group-ysva.png
+    - assets/page-1/images/wifi-7sE.png
+    - assets/page-1/images/bg-VnQ.png
+    - assets/page-1/images/auto-group-7tma.png
+    - assets/page-1/images/battery-q5i.png
+    - assets/page-1/images/search-wPe.png
+    - assets/page-1/images/battery-UuN.png
+    - assets/page-1/images/bg-eYx.png
+    - assets/page-1/images/magnify.png
+    - assets/page-1/images/wifi-YB2.png
+    - assets/page-1/images/mdi-paper-alert.png
+    - assets/page-1/images/bg-xkY.png
+    - assets/page-1/images/auto-group-ggrv.png
+    - assets/page-1/images/user-DwN.png
+    - assets/page-1/images/user-aX2.png
+    - assets/page-1/images/home-linear.png
+    - assets/page-1/images/bg-tUx.png
+    - assets/page-1/images/ion-log-out-outline.png
+    - assets/page-1/images/battery-F1i.png
+    - assets/page-1/images/home-linear-mEx.png
+    - assets/page-1/images/wifi-CTz.png
+    - assets/page-1/images/battery-qG4.png
+    - assets/page-1/images/search-4qW.png
+    - assets/page-1/images/android-nav-bar-ofn.png
+    - assets/page-1/images/home-RRS.png
+    - assets/page-1/images/vector-prk.png
+    - assets/page-1/images/vector-Bfn.png
+    - assets/page-1/images/home-linear-phW.png
+    - assets/page-1/images/android-nav-bar-S5v.png
+    - assets/page-1/images/search-cU8.png
+    - assets/page-1/images/search-ryN.png
+    - assets/page-1/images/auto-group-ndus.png
+    - assets/page-1/images/rectangle-380.png
+    - assets/page-1/images/auto-group-gnbz.png
+    - assets/page-1/images/auto-group-mwkw.png
+    - assets/page-1/images/float-btn-fV2.png
+    - assets/page-1/images/user-Xd2.png
+    - assets/page-1/images/rectangle-375-fnQ.png
+    - assets/page-1/images/rectangle-375-zVn.png
+    - assets/page-1/images/user-pUp.png
+    - assets/page-1/images/cellular-ZSQ.png
+    - assets/page-1/images/trailing-icon.png
+    - assets/page-1/images/user-Mgk.png
+    - assets/page-1/images/cellular-RZS.png
+    - assets/page-1/images/arrowdropdown24px.png
+    - assets/page-1/images/vector-HZ2.png
+    - assets/page-1/images/group-5.png
+    - assets/page-1/images/cellular-pKz.png
+    - assets/page-1/images/trailing-icon-Wvt.png
+    - assets/page-1/images/trailing-icon-GfA.png
+    - assets/page-1/images/trailing-icon-1dz.png
+    - assets/page-1/images/auto-group-kkxt.png
+    - assets/page-1/images/vector-8yW.png
+    - assets/page-1/images/trailing-icon-Vp4.png
+    - assets/page-1/images/search-QYp.png
+    - assets/page-1/images/trailing-icon-jqz.png
+    - assets/page-1/images/home-linear-wBN.png
+    - assets/page-1/images/android-nav-bar-sqi.png
+    - assets/page-1/images/android-nav-bar-2yW.png
+    - assets/page-1/images/vector-A48.png
+    - assets/page-1/images/bg-XQU.png
+    - assets/page-1/images/wifi-HuS.png
+    - assets/page-1/images/rectangle-375-ezt.png
+    - assets/page-1/images/battery-peU.png
+    - assets/page-1/images/bg-BV2.png
+    - assets/page-1/images/android-nav-bar-JJk.png
+    - assets/page-1/images/trailing-icon-MH2.png
+    - assets/page-1/images/user-oEp.png
+    - assets/page-1/images/rectangle-375-3Mz.png
+    - assets/page-1/images/rectangle-375-acp.png
+    - assets/page-1/images/auto-group-oweg.png
+    - assets/page-1/images/trailing-icon-vbS.png
+    - assets/page-1/images/arrowdropdown24px-THr.png
+    - assets/page-1/images/arrowdropdown24px-pvU.png
+    - assets/page-1/images/cellular-DsW.png
+    - assets/page-1/images/rectangle-375-1be.png
+    - assets/page-1/images/vector-2Ki.png
+    - assets/page-1/images/float-btn-jHA.png
+    - assets/page-1/images/rectangle-375-KGc.png
+    - assets/page-1/images/arrowdropdown24px-qwv.png
+    - assets/page-1/images/arrowdropdown24px-Rf6.png
+    - assets/page-1/images/rectangle-375-4or.png
+    - assets/page-1/images/trailing-icon-x7A.png
+    - assets/page-1/images/vector-HUC.png
+    - assets/page-1/images/trailing-icon-c2c.png
+    - assets/page-1/images/rectangle-380-bX6.png
+    - assets/page-1/images/rectangle-375-YCY.png
+    - assets/page-1/images/rectangle-380-6me.png
+    - assets/page-1/images/rectangle-380-Zpt.png
+    - assets/page-1/images/rectangle-375-TuS.png
+    - assets/page-1/images/rectangle-375-FYL.png
+    - assets/page-1/images/bgimage.png

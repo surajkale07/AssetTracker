@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458661330109",
+    "project_id": "asset-tracker-e7e50",
+    "storage_bucket": "asset-tracker-e7e50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458661330109:android:a1ab3a3b3d832c3143cbd4",
+        "android_client_info": {
+          "package_name": "com.aries.asset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458661330109-oklfd619kf8rv248di306faivo5f9bhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFxDYbcpgJjn9R2NfUb_275FlHDrNVFkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458661330109-oklfd619kf8rv248di306faivo5f9bhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
